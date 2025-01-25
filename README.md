@@ -24,3 +24,16 @@ The Ecommerce-Follow-Along project aims to build a fully-functional e-commerce a
 **Database Schema Design :** The importance of schema design in MongoDB was covered, with a focus on creating structured models for data like users, products, and orders.
 
 **Authentication Basics :** You learned the significance of user authentication in web applications, ensuring secure access to sensitive resources like purchases and personal information.
+
+Milestone 2: Project Setup and Login Page
+
+This milestone focuses on setting up the project structure and implementing a basic login page.
+
+Key Features
+
+- Project Setup: Initialized the project with the required dependencies and folder structure.
+- Login Page: A simple login page with fields for username and password.
+
+Tech Stack Used
+
+- Frontend: React, Tailwindcss
