@@ -84,8 +84,8 @@ Tech Stack Used
 
   Key Features
 
-       1)Password Encryption: Used bcrypt to hash passwords.
-       2)User Data Storage: Saved user data securely in the user inputs.
+       1:Password Encryption: Used bcrypt to hash passwords.
+       2:User Data Storage: Saved user data securely in the user inputs.
 
  Tech stack used :
    - Backend : node.js
