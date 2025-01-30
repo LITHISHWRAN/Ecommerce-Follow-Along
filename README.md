@@ -78,3 +78,14 @@ Key Features
 Tech Stack Used
 
 - Frontend: React
+
+*Milestone 6:*
+  This milestone focus on the password Encryption and User Data Storage
+
+  Key Features
+
+       1)Password Encryption: Used bcrypt to hash passwords.
+       2)User Data Storage: Saved user data securely in the user inputs.
+
+ Tech stack used :
+   - Backend : node.js
