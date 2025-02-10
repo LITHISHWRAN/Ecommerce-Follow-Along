@@ -141,3 +141,9 @@ Maintain Consistency: Ensure the layout remains uniform for all products.
 
 Tech stack :
 Frontend: react
+
+**Milestone 9 - Product Input Form**
+In this milestone, we built a frontend form to take product details as input, including multiple images. This form will allow users to add products, which will be saved in the database and displayed on the product page. This step is crucial in making the eCommerce platform functional. Future improvements can include admin access and shop profiles for better management. 
+
+**Milestone 10 - Product Schema & API Endpoint**
+In this milestone, we created a Mongoose schema to define the structure of product data, including fields like name, description, price, and image URL, with proper validation. We also built a POST endpoint to validate and store product details in MongoDB, ensuring data integrity. This step is essential for managing products efficiently in the eCommerce platform. 
