@@ -158,3 +158,8 @@ In this milestone, we developed the **My Products** page, which displays only th
 
 **Milestone 13 Edit Uploaded Products**
  I implemented the functionality to edit uploaded products in our eCommerce platform. This involved creating an edit button on the product card, which, when clicked, would autofill a form with the existing product details, allowing users to modify and update the information. On the backend, we developed an endpoint to handle update requests, ensuring that the modified data is correctly stored in the MongoDB database. This milestone helped us understand how to perform update operations efficiently, enhancing the user experience by providing seamless product modifications. The updated code has been pushed to the GitHub repository, with the README reflecting the progress made in this milestone.
+
+
+ **Milestone 14 - Delete Product Functionality**  
+
+In this milestone, we implemented a *delete functionality* for products. We added a *DELETE API endpoint* in the backend using *Express.js* and *MongoDB, allowing products to be removed using their ID. On the frontend, we added a **delete button* to each product card, which sends a request to the server to remove the product from the database. This ensures a smooth user experience by dynamically updating the UI after deletion.
