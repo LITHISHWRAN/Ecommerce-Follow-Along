@@ -163,3 +163,20 @@ In this milestone, we developed the **My Products** page, which displays only th
  **Milestone 14 - Delete Product Functionality**  
 
 In this milestone, we implemented a *delete functionality* for products. We added a *DELETE API endpoint* in the backend using *Express.js* and *MongoDB, allowing products to be removed using their ID. On the frontend, we added a **delete button* to each product card, which sends a request to the server to remove the product from the database. This ensures a smooth user experience by dynamically updating the UI after deletion.
+
+**Milestone 15: Creating a Reusable Navigation Component**
+Learning Goals
+- Create a Nav component.
+- Reuse it across multiple pages.
+- Make the navbar responsive.
+- Ensure smooth navigation.
+
+Steps
+1. Create Nav Component
+   - Add links: Home, My Products, Add Product, Cart.
+2. *Make it Responsive*
+   - Use CSS for adaptability.
+3. *Integrate Across Pages*
+   - Import and include Nav in all pages.
+Conclusion
+This milestone teaches how to build and integrate a responsive navigation bar for seamless navigation.
