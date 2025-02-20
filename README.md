@@ -66,7 +66,7 @@ This project is a simple User Management System that allows the creation, retrie
 - *File Uploads*: Accepts and stores user-uploaded files (e.g., profile images).
 - *Documentation*: Well-documented code for ease of
 
-Milestone 5: Project Signup Setup
+**Milestone 5: Project Signup Setup**
 
 This milestone focuses on setting up the project structure and implementing a basic signup page.
 
