@@ -180,3 +180,11 @@ Steps
    - Import and include Nav in all pages.
 Conclusion
 This milestone teaches how to build and integrate a responsive navigation bar for seamless navigation.
+
+
+**Milestone 16 - Product Info Page**
+In this milestone, we created a Product Info Page that displays detailed product data. Users can choose the quantity and click the Add to Cart button to add items to their cart.
+
+Tech Stack:
+Frontend:
+ React.js – For building the Product Info Page.
