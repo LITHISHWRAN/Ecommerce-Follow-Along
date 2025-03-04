@@ -16,10 +16,7 @@ export default function Product({ _id, name, images, description, price }) {
 
  const currentImage = images[currentIndex];
  return (
-   <div className="bg-gradient-to-b from-white to-blue-200 p-4 rounded-lg shadow-md flex flex-col justify-between
-
-
-">
+   <div className="bg-neutral-200 p-4 rounded-lg shadow-md flex flex-col justify-between">
      <div className="w-full ">
        <img
          src={`http://localhost:5000${currentImage}`} // Ensure the URL is correct\

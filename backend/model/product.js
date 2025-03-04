@@ -51,7 +51,6 @@
 
 
 
-
 const mongoose = require("mongoose");
 
 const productSchema = new mongoose.Schema(
@@ -93,7 +92,26 @@ const productSchema = new mongoose.Schema(
             type: Date,
             default: Date.now, // Automatically set the creation date
         },
+
+
+        
+        cart: [
+            {
+                productid: {
+                    type: String,
+                    required: [true, "Please provide the product ID"],
+                    unique: true,
+                },
+                quantity: {
+                    type: Number,
+                    required: [true, "Please provide the quantity"],
+                    min: [0, "Quantity cannot be negative"],
+                },
+            },
+        ],
     },
+
+    
     {
         timestamps: true,
     }
