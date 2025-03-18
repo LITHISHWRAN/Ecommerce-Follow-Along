@@ -300,3 +300,21 @@ In this milestone, we will build the Order Confirmation page for our application
 2. *Show Selected Address:* Retrieve and display the address the user has chosen for delivery.
 3. *Calculate Total Price:* Compute the total cost of the order, including any applicable taxes or discounts.
 4. *Add Place Order Button:* Provide a button to confirm the order and proceed with the checkout process.
+
+**Milestone 25 - Placing an Order**
+Overview
+In this milestone, we will implement the backend endpoint that allows users to place an order. This endpoint will receive product details, user details, and the delivery address. Each product will be stored as a separate order in the database.
+
+Tech Stack
+Backend: Node.js, Express.js
+Database: MongoDB
+
+
+**Milestone 26 - Fetching User Orders**
+Overview
+In this milestone, we will implement an API endpoint that retrieves all orders placed by a specific user. The endpoint will receive the user’s email, find the user's _id, and return all orders associated with that user.
+
+Tech Stack
+Backend: Node.js, Express.js
+Database: MongoDB
+Frontend: React
